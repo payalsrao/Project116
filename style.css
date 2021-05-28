@@ -1,0 +1,26 @@
+  
+  .btn-info:hover
+{
+	background: linear-gradient(yellow, green, cyan);
+}
+  
+.btn-success:hover
+{
+	background: linear-gradient(pink,purple,blue);
+}
+  canvas {
+    border: dashed darkblue 10px;
+	  animation-name: example;
+	  animation-duration: 1s;
+	  animation-iteration-count: infinite;
+    
+  }
+
+
+@keyframes example {
+
+  from {box-shadow: 1px 1px 108px green;}
+  to {box-shadow: 1px 1px 158px purple;}
+
+}
+
